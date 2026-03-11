@@ -2,7 +2,7 @@
 
 ## 1) Download the macOS app
 Release:
-https://github.com/Cchhiillll/chillwang-clawlink-lab/releases/tag/v0.1.0-beta.1
+https://github.com/Cchhiillll/chillwang-clawlink-lab/releases/tag/v0.1.0-beta.2
 
 Download asset: `ClawLinkMac-macos.zip`
 
