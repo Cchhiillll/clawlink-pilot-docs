@@ -2,7 +2,7 @@
 
 ## 1) Download the macOS app
 Open Releases:
-https://github.com/Cchhiillll/chillwang-clawlink-lab/releases
+https://github.com/Cchhiillll/clawlink-pilot-docs/releases
 
 Current public build:
 - `v0.1.0-beta.3`
