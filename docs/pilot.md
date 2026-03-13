@@ -11,9 +11,8 @@ Last updated: 2026-03-13
 - 打开应用后选 Local，连接本机 OpenClaw 即可
 
 ### Remote（远程模式）
-适合：要连接远程主机。
-- macOS 客户端侧：输入 connect code 完成绑定
-- 扫码动作发生在手机端（用于打开 claim 页面并拿到 code）
+- 当前仅内部测试可用，暂不对外开放。
+- 原因：主机侧配对码生成命令依赖私有项目脚本环境（private 仓库）。
 
 ---
 
@@ -56,7 +55,7 @@ xattr -dr com.apple.quarantine /Applications/ClawLinkMac.app
 
 ---
 
-## 4）Remote 路径（远程主机）
+## 4）Remote 路径（远程主机，当前仅内部测试）
 
 ### 4.1 注册 / 登录
 在登录页选择 **Register**，填写：

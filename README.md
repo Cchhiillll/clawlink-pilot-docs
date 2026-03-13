@@ -25,13 +25,13 @@ Last updated: 2026-03-13
 - Remote：远程主机（macOS 输入 connect code；扫码发生在手机端）
 
 ## 当前功能范围（重要）
-- ✅ 目前支持：
-  - 下载 macOS 客户端
-  - 注册/登录
-  - 通过 connect code 添加设备并聊天
-  - Remote 绑定：主机端生成配对码（可显示二维码），手机端可扫码打开 claim 页面获取 connect code，macOS 客户端粘贴 code 完成绑定
-- ⚠️ 暂未完善：
-  - iOS 客户端（规划中）
+- ✅ 目前对外可用：
+  - macOS 客户端下载与 Local 模式使用
+- ⚠️ 当前不对外开放：
+  - Remote 绑定流程（仅内部测试可用）
+  - 原因：主机侧配对码生成仍依赖私有项目脚本环境（项目仓库为 private）
+- ⚠️ 规划中：
+  - iOS 客户端
 
 ## 常见问题
 看这里：`docs/troubleshooting.md`
