@@ -5,7 +5,7 @@ Open Releases:
 https://github.com/Cchhiillll/chillwang-clawlink-lab/releases
 
 Current public build:
-- `v0.1.0-beta.2`
+- `v0.1.0-beta.3`
 
 Download asset:
 - `ClawLinkMac-macos.zip`
