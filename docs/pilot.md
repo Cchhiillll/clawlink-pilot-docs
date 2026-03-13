@@ -50,8 +50,8 @@ xattr -dr com.apple.quarantine /Applications/ClawLinkMac.app
 在 macOS 客户端：
 - Add Device → 粘贴 connect code
 
-> 说明：macOS 客户端内置扫码还没完全做完。
-> 当前推荐路径是：手机扫码 → 拿 code → 客户端粘贴。
+> 说明：当前设计就是“手机端扫码 claim，macOS 客户端粘贴 connect code”流程。
+> macOS 客户端不承担扫码职责。
 >
 > 下个版本计划：pairing 命令支持省略 `device_id` 时自动生成，减少人工输入。
 
