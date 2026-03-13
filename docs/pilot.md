@@ -70,7 +70,21 @@ xattr -dr com.apple.quarantine /Applications/ClawLinkMac.app
 在主机端安装 Bridge 服务并保持在线。
 
 ### 4.3 生成并获取 connect code
-在主机端生成配对二维码。
+在主机端执行（管理员）：
+
+```bash
+cd /path/to/chillwang-clawlink-lab
+BASE_URL=https://clawlink.wypchill.work \
+HOST_TOKEN=<HOST_TOKEN> \
+bash tools/pairing-qr.sh \
+  --device-id "$(hostname | tr '[:upper:]' '[:lower:]')-$(date +%Y%m%d%H%M%S)" \
+  --display-name "$(hostname)"
+```
+
+执行后终端会输出：
+- connect code
+- claim URL
+- 终端二维码
 
 手机扫码打开 claim 页面后，复制 **connect code**。
 
