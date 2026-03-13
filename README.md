@@ -26,5 +26,18 @@ Follow: `docs/pilot.md`
 
 Core flow (macOS app): **Device → Agent → Session → Chat**
 
+## Current capability scope (important)
+- ✅ Supported now:
+  - Download macOS app, register/login, add device by connect code, and chat.
+  - Host-side pairing QR generation + claim page flow.
+- ⚠️ Not fully supported yet:
+  - macOS client direct QR scanning/recognition for pairing (in-app scanner flow is not complete yet).
+
 ## Troubleshooting
 See: `docs/troubleshooting.md`
+
+## Release maintenance rule
+For every new public release, update these docs in the same PR:
+- `README.md` (latest version + direct download link + capability scope)
+- `docs/pilot.md` (step changes + known limitations)
+- `docs/troubleshooting.md` (new known issues/workarounds)

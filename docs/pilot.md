@@ -56,6 +56,8 @@ Scan the QR on your phone to open the claim page and **copy the connect code**.
 In the macOS app:
 - Add Device → paste connect code
 
+> Note: in-app QR scanner in macOS client is not complete yet. Current supported path is: phone scan QR → copy connect code → paste into Add Device.
+
 ## 6) Chat
 - Select Device → Agent → Session
 - Optional: switch Provider / Model in the chat header for the next message
