@@ -20,6 +20,10 @@ Last updated: 2026-03-13
 
 核心流程：**设备 → Agent → 会话 → 聊天**
 
+模式说明：
+- Local：本机直连（不需要扫码/配对 code）
+- Remote：远程主机（macOS 输入 connect code；扫码发生在手机端）
+
 ## 当前功能范围（重要）
 - ✅ 目前支持：
   - 下载 macOS 客户端

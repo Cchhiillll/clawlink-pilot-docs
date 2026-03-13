@@ -2,6 +2,21 @@
 
 Last updated: 2026-03-13
 
+## 0）先选模式（最重要）
+
+### Local（本机模式）
+适合：只想在当前这台 Mac 上直接使用。
+- 不需要扫码
+- 不需要配对 code
+- 打开应用后选 Local，连接本机 OpenClaw 即可
+
+### Remote（远程模式）
+适合：要连接远程主机。
+- macOS 客户端侧：输入 connect code 完成绑定
+- 扫码动作发生在手机端（用于打开 claim 页面并拿到 code）
+
+---
+
 ## 1）下载 macOS 客户端
 直接下载（推荐）：
 https://github.com/Cchhiillll/clawlink-pilot-docs/releases/download/v0.1.0-beta.3/ClawLinkMac-macos.zip
@@ -38,22 +53,37 @@ xattr -dr com.apple.quarantine /Applications/ClawLinkMac.app
 
 邀请码请联系内测组织者。
 
-## 4）主机侧安装 Bridge（macOS 或 Linux）
-如果你是“主机管理员”，需要在主机上安装 Bridge 服务并配置环境变量。
-如果你只是普通用户，可以跳过第 4 步，直接看第 5 步。
+---
 
-## 5）主机配对（二维码 → connect code）
+## 4）Local 路径（本机直连）
+1. 打开应用
+2. 选择 **Local**
+3. 进入会话后直接聊天
+
+> Local 不走远程绑定流程，不需要 connect code。
+
+---
+
+## 5）Remote 路径（远程主机）
+
+### 5.1 主机侧准备（管理员执行）
+在主机端安装 Bridge 服务并保持在线。
+
+### 5.2 生成并获取 connect code
 在主机端生成配对二维码。
 
 手机扫码打开 claim 页面后，复制 **connect code**。
 
+### 5.3 macOS 客户端绑定
 在 macOS 客户端：
 - Add Device → 粘贴 connect code
 
-> 说明：当前设计就是“手机端扫码 claim，macOS 客户端粘贴 connect code”流程。
-> macOS 客户端不承担扫码职责。
+> 说明：macOS 客户端不承担扫码动作。
+> 扫码用于手机端打开 claim 页面并取回 code。
 >
 > 下个版本计划：pairing 命令支持省略 `device_id` 时自动生成，减少人工输入。
+
+---
 
 ## 6）开始聊天
 - 选择 设备 → Agent → 会话
