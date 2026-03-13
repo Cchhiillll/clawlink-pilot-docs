@@ -1,5 +1,7 @@
 # Pilot Instructions (macOS client + macOS/Linux host)
 
+Last updated: 2026-03-13
+
 ## 1) Download the macOS app
 Open Releases:
 https://github.com/Cchhiillll/clawlink-pilot-docs/releases

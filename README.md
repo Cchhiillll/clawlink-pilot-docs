@@ -1,5 +1,7 @@
 # ClawLink Pilot (Beta)
 
+Last updated: 2026-03-13
+
 This repo contains **pilot user documentation and download links** for ClawLink.
 
 - Backend base URL: https://clawlink.wypchill.work
@@ -20,6 +22,8 @@ This repo contains **pilot user documentation and download links** for ClawLink.
 
 ## Getting started (Pilot)
 Follow: `docs/pilot.md`
+
+Core flow (macOS app): **Device → Agent → Session → Chat**
 
 ## Troubleshooting
 See: `docs/troubleshooting.md`

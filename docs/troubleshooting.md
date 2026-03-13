@@ -1,5 +1,7 @@
 # Troubleshooting
 
+Last updated: 2026-03-13
+
 ## Common issues
 
 ### 1) Can't register
