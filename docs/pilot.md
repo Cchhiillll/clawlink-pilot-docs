@@ -22,6 +22,14 @@ Install:
 3) Open it
 4) If macOS blocks it, right-click `ClawLinkMac.app` → **Open**
 
+If macOS shows "app is damaged" / cannot be opened:
+1) Try right-click `ClawLinkMac.app` → **Open** again
+2) System Settings → Privacy & Security → allow/open anyway
+3) If still blocked, run:
+```bash
+xattr -dr com.apple.quarantine /Applications/ClawLinkMac.app
+```
+
 ## 2) Configure Base URL
 Settings → Base URL:
 - `https://clawlink.wypchill.work`

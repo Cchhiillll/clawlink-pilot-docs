@@ -16,10 +16,15 @@ Last updated: 2026-03-13
 - Code expired (codes are short-lived)
 - Code already claimed
 
-### 4) macOS app won't open after download
+### 4) macOS app won't open / shows "app is damaged"
 - Make sure you downloaded `ClawLinkMac-macos.zip` from the Releases page
 - Unzip first, then drag `ClawLinkMac.app` to Applications
-- If macOS warns about the app, right-click `ClawLinkMac.app` and choose **Open**
+- Right-click `ClawLinkMac.app` and choose **Open**
+- System Settings → Privacy & Security → allow/open anyway
+- If still blocked, run:
+  ```bash
+  xattr -dr com.apple.quarantine /Applications/ClawLinkMac.app
+  ```
 
 ## What to send for support
 - Which step you are stuck on (1–6)
