@@ -3,8 +3,11 @@
 Last updated: 2026-03-13
 
 ## 1) Download the macOS app
-Open Releases:
-https://github.com/Cchhiillll/clawlink-pilot-docs/releases
+Direct download (recommended):
+https://github.com/Cchhiillll/clawlink-pilot-docs/releases/download/v0.1.0-beta.3/ClawLinkMac-macos.zip
+
+Fallback (if direct download has network issues):
+https://github.com/Cchhiillll/clawlink-pilot-docs/releases/tag/v0.1.0-beta.3
 
 Current public build:
 - `v0.1.0-beta.3`
