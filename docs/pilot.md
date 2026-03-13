@@ -45,7 +45,20 @@ xattr -dr com.apple.quarantine /Applications/ClawLinkMac.app
 应用内 Settings → Base URL：
 - `https://clawlink.wypchill.work`
 
-## 3）注册 / 登录
+---
+
+## 3）Local 路径（本机直连）
+1. 打开应用
+2. 选择 **Local**
+3. 进入会话后直接聊天
+
+> Local 不需要注册/登录，不需要 connect code。
+
+---
+
+## 4）Remote 路径（远程主机）
+
+### 4.1 注册 / 登录
 在登录页选择 **Register**，填写：
 - 邮箱
 - 密码
@@ -53,28 +66,15 @@ xattr -dr com.apple.quarantine /Applications/ClawLinkMac.app
 
 邀请码请联系内测组织者。
 
----
-
-## 4）Local 路径（本机直连）
-1. 打开应用
-2. 选择 **Local**
-3. 进入会话后直接聊天
-
-> Local 不走远程绑定流程，不需要 connect code。
-
----
-
-## 5）Remote 路径（远程主机）
-
-### 5.1 主机侧准备（管理员执行）
+### 4.2 主机侧准备（管理员执行）
 在主机端安装 Bridge 服务并保持在线。
 
-### 5.2 生成并获取 connect code
+### 4.3 生成并获取 connect code
 在主机端生成配对二维码。
 
 手机扫码打开 claim 页面后，复制 **connect code**。
 
-### 5.3 macOS 客户端绑定
+### 4.4 macOS 客户端绑定
 在 macOS 客户端：
 - Add Device → 粘贴 connect code
 
@@ -85,7 +85,7 @@ xattr -dr com.apple.quarantine /Applications/ClawLinkMac.app
 
 ---
 
-## 6）开始聊天
+## 5）开始聊天
 - 选择 设备 → Agent → 会话
 - 如有需要，在聊天头部切换 Provider / Model（影响下一条消息）
 - 发送消息并确认收到回复
