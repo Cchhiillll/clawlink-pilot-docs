@@ -29,7 +29,7 @@ Last updated: 2026-03-13
   - 下载 macOS 客户端
   - 注册/登录
   - 通过 connect code 添加设备并聊天
-  - 主机端生成配对二维码 + claim 页面流程（手机扫码）
+  - Remote 绑定：主机端生成配对码（可显示二维码），手机端可扫码打开 claim 页面获取 connect code，macOS 客户端粘贴 code 完成绑定
 - ⚠️ 暂未完善：
   - iOS 客户端（规划中）
 
