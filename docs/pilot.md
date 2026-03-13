@@ -14,7 +14,7 @@ Current public build:
 
 Download asset:
 - `ClawLinkMac-macos.zip`
-- Do not choose `Source code`
+
 
 Install:
 1) Unzip

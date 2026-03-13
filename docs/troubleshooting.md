@@ -17,7 +17,7 @@ Last updated: 2026-03-13
 - Code already claimed
 
 ### 4) macOS app won't open after download
-- Make sure you downloaded `ClawLinkMac-macos.zip` from the Releases page, not `Source code`
+- Make sure you downloaded `ClawLinkMac-macos.zip` from the Releases page
 - Unzip first, then drag `ClawLinkMac.app` to Applications
 - If macOS warns about the app, right-click `ClawLinkMac.app` and choose **Open**
 

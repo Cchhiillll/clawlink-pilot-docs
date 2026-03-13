@@ -14,7 +14,7 @@ This repo contains **pilot user documentation and download links** for ClawLink.
 - Latest public macOS build: `v0.1.0-beta.3`
 - Download asset name: `ClawLinkMac-macos.zip`
 - Public releases page (fallback): https://github.com/Cchhiillll/clawlink-pilot-docs/releases
-- Do not download `Source code`
+
 
 ### Version Downloads
 - `v0.1.0-beta.3` (release page): https://github.com/Cchhiillll/clawlink-pilot-docs/releases/tag/v0.1.0-beta.3
