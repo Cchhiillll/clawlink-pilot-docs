@@ -1,15 +1,21 @@
 # Pilot Instructions (macOS client + macOS/Linux host)
 
 ## 1) Download the macOS app
-Release:
-https://github.com/Cchhiillll/chillwang-clawlink-lab/releases/tag/v0.1.0-beta.2
+Open Releases:
+https://github.com/Cchhiillll/chillwang-clawlink-lab/releases
 
-Download asset: `ClawLinkMac-macos.zip`
+Current public build:
+- `v0.1.0-beta.2`
+
+Download asset:
+- `ClawLinkMac-macos.zip`
+- Do not choose `Source code`
 
 Install:
 1) Unzip
 2) Drag `ClawLinkMac.app` to Applications
 3) Open it
+4) If macOS blocks it, right-click `ClawLinkMac.app` → **Open**
 
 ## 2) Configure Base URL
 Settings → Base URL:
@@ -47,4 +53,5 @@ In the macOS app:
 
 ## 6) Chat
 - Select Device → Agent → Session
+- Optional: switch Provider / Model in the chat header for the next message
 - Send a message and confirm you get a reply

@@ -8,7 +8,10 @@ This repo contains **pilot user documentation and download links** for ClawLink.
 > No code, no secrets are stored in this repo.
 
 ## Downloads
-- macOS app (ZIP): https://github.com/Cchhiillll/chillwang-clawlink-lab/releases/tag/v0.1.0-beta.2
+- Releases page: https://github.com/Cchhiillll/chillwang-clawlink-lab/releases
+- Current public macOS build: `v0.1.0-beta.2`
+- Download asset: `ClawLinkMac-macos.zip`
+- Do not download `Source code`
 
 ## Getting started (Pilot)
 Follow: `docs/pilot.md`

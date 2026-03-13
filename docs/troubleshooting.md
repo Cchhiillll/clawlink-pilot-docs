@@ -14,6 +14,11 @@
 - Code expired (codes are short-lived)
 - Code already claimed
 
+### 4) macOS app won't open after download
+- Make sure you downloaded `ClawLinkMac-macos.zip` from the Releases page, not `Source code`
+- Unzip first, then drag `ClawLinkMac.app` to Applications
+- If macOS warns about the app, right-click `ClawLinkMac.app` and choose **Open**
+
 ## What to send for support
 - Which step you are stuck on (1–6)
 - Screenshot of the error
