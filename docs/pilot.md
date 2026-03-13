@@ -1,74 +1,61 @@
-# Pilot Instructions (macOS client + macOS/Linux host)
+# 内测使用说明（macOS 客户端 + 主机）
 
 Last updated: 2026-03-13
 
-## 1) Download the macOS app
-Direct download (recommended):
+## 1）下载 macOS 客户端
+直接下载（推荐）：
 https://github.com/Cchhiillll/clawlink-pilot-docs/releases/download/v0.1.0-beta.3/ClawLinkMac-macos.zip
 
-Fallback (if direct download has network issues):
+备用页面（下载异常时）：
 https://github.com/Cchhiillll/clawlink-pilot-docs/releases/tag/v0.1.0-beta.3
 
-Current public build:
-- `v0.1.0-beta.3`
+当前版本：`v0.1.0-beta.3`
+文件名：`ClawLinkMac-macos.zip`
 
-Download asset:
-- `ClawLinkMac-macos.zip`
+安装：
+1. 解压
+2. 把 `ClawLinkMac.app` 拖到 Applications
+3. 打开应用
+4. 若被拦截，右键 `ClawLinkMac.app` → **打开**
 
-
-Install:
-1) Unzip
-2) Drag `ClawLinkMac.app` to Applications
-3) Open it
-4) If macOS blocks it, right-click `ClawLinkMac.app` → **Open**
-
-If macOS shows "app is damaged" / cannot be opened:
-1) Try right-click `ClawLinkMac.app` → **Open** again
-2) System Settings → Privacy & Security → allow/open anyway
-3) If still blocked, run:
+如果提示“应用已损坏 / 无法打开”：
+1. 再次右键 `ClawLinkMac.app` → **打开**
+2. 系统设置 → 隐私与安全性 → 允许打开
+3. 还不行再执行：
 ```bash
 xattr -dr com.apple.quarantine /Applications/ClawLinkMac.app
 ```
 
-## 2) Configure Base URL
-Settings → Base URL:
+## 2）配置 Base URL
+应用内 Settings → Base URL：
 - `https://clawlink.wypchill.work`
 
-## 3) Register / Login
-On the login screen choose **Register**:
-- Email
-- Password
-- Invite code
+## 3）注册 / 登录
+在登录页选择 **Register**，填写：
+- 邮箱
+- 密码
+- 邀请码
 
-**Invite code: please contact the pilot organizer.**
+邀请码请联系内测组织者。
 
-## 4) Host: install Bridge (macOS or Linux)
+## 4）主机侧安装 Bridge（macOS 或 Linux）
+如果你是“主机管理员”，需要在主机上安装 Bridge 服务并配置环境变量。
+如果你只是普通用户，可以跳过第 4 步，直接看第 5 步。
 
-### macOS host
-From the private repo on the host machine:
-- Install Bridge service (launchd)
-- Configure `~/.config/clawlink/bridge.env`
+## 5）主机配对（二维码 → connect code）
+在主机端生成配对二维码。
 
-### Linux host (systemd)
-From the private repo on the host machine:
-- Install Bridge service (systemd)
-- Configure `/etc/clawlink/bridge.env`
+手机扫码打开 claim 页面后，复制 **connect code**。
 
-> If you need help installing Bridge on the host, contact the pilot organizer.
+在 macOS 客户端：
+- Add Device → 粘贴 connect code
 
-## 5) Pair host (QR → connect code)
-On the host, generate a pairing QR.
-
-Scan the QR on your phone to open the claim page and **copy the connect code**.
-
-In the macOS app:
-- Add Device → paste connect code
-
-> Note: in-app QR scanner in macOS client is not complete yet. Current supported path is: phone scan QR → copy connect code → paste into Add Device.
+> 说明：macOS 客户端内置扫码还没完全做完。
+> 当前推荐路径是：手机扫码 → 拿 code → 客户端粘贴。
 >
-> Next version plan: pairing command will support auto-generated `device_id` when omitted (so operators don't need to invent one manually).
+> 下个版本计划：pairing 命令支持省略 `device_id` 时自动生成，减少人工输入。
 
-## 6) Chat
-- Select Device → Agent → Session
-- Optional: switch Provider / Model in the chat header for the next message
-- Send a message and confirm you get a reply
+## 6）开始聊天
+- 选择 设备 → Agent → 会话
+- 如有需要，在聊天头部切换 Provider / Model（影响下一条消息）
+- 发送消息并确认收到回复
