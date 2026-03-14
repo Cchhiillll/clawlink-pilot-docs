@@ -18,14 +18,14 @@ Last updated: 2026-03-14
 
 ## 1）下载 macOS 客户端
 直接下载（推荐）：
-https://github.com/Cchhiillll/clawlink-pilot-docs/releases/download/v0.1.0-beta.4/ClawLinkMac-macos.zip
+https://github.com/Cchhiillll/clawlink-pilot-docs/releases/download/v0.1.0-beta.5/ClawLinkMac-macos.zip
 
 备用页面（下载异常时）：
-https://github.com/Cchhiillll/clawlink-pilot-docs/releases/tag/v0.1.0-beta.4
+https://github.com/Cchhiillll/clawlink-pilot-docs/releases/tag/v0.1.0-beta.5
 
-当前版本：`v0.1.0-beta.4`
+当前版本：`v0.1.0-beta.5`
 文件名：`ClawLinkMac-macos.zip`
-对应主仓库提交：`f277803`（`main`）
+对应主仓库提交：`cb8787d`（`main`）
 
 历史版本入口：
 - https://github.com/Cchhiillll/clawlink-pilot-docs/releases
@@ -53,7 +53,8 @@ xattr -dr com.apple.quarantine /Applications/ClawLinkMac.app
 ## 3）Local 路径（本机直连）
 1. 打开应用
 2. 选择 **Local**
-3. 进入会话后直接聊天
+3. 等待应用完成本机 Gateway 检查
+4. 进入会话后直接聊天
 
 > Local 不需要注册/登录，不需要 connect code。
 
@@ -99,6 +100,9 @@ bash tools/pairing-qr.sh \
 > 扫码用于手机端打开 claim 页面并取回 code。
 >
 > 下个版本计划：pairing 命令支持省略 `device_id` 时自动生成，减少人工输入。
+
+> 当前 public `beta.5` 构建的开始页会把 **Remote** 显示为“暂未开放”。
+> 如果你需要继续做内部远程联调，需要使用私有项目仓库和内部操作流程。
 
 ---
 
