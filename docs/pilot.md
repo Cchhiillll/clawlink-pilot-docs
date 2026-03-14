@@ -1,6 +1,6 @@
 # 内测使用说明（macOS 客户端 + 主机）
 
-Last updated: 2026-03-13
+Last updated: 2026-03-14
 
 ## 0）先选模式（最重要）
 
@@ -18,13 +18,14 @@ Last updated: 2026-03-13
 
 ## 1）下载 macOS 客户端
 直接下载（推荐）：
-https://github.com/Cchhiillll/clawlink-pilot-docs/releases/download/v0.1.0-beta.3/ClawLinkMac-macos.zip
+https://github.com/Cchhiillll/clawlink-pilot-docs/releases/download/v0.1.0-beta.4/ClawLinkMac-macos.zip
 
 备用页面（下载异常时）：
-https://github.com/Cchhiillll/clawlink-pilot-docs/releases/tag/v0.1.0-beta.3
+https://github.com/Cchhiillll/clawlink-pilot-docs/releases/tag/v0.1.0-beta.4
 
-当前版本：`v0.1.0-beta.3`
+当前版本：`v0.1.0-beta.4`
 文件名：`ClawLinkMac-macos.zip`
+对应主仓库提交：`c1456e1`（`main`）
 
 安装：
 1. 解压

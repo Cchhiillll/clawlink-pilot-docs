@@ -1,6 +1,6 @@
 # ClawLink 内测文档（Beta）
 
-Last updated: 2026-03-13
+Last updated: 2026-03-14
 
 这个仓库只放：
 - 内测使用说明
@@ -10,10 +10,11 @@ Last updated: 2026-03-13
 
 ## 下载（macOS）
 - **直接下载（推荐）：**
-  https://github.com/Cchhiillll/clawlink-pilot-docs/releases/download/v0.1.0-beta.3/ClawLinkMac-macos.zip
-- 当前版本：`v0.1.0-beta.3`
+  https://github.com/Cchhiillll/clawlink-pilot-docs/releases/download/v0.1.0-beta.4/ClawLinkMac-macos.zip
+- 当前版本：`v0.1.0-beta.4`
+- 当前包对应主仓库提交：`c1456e1`（`main`）
 - 备用页（下载异常时再用）：
-  https://github.com/Cchhiillll/clawlink-pilot-docs/releases/tag/v0.1.0-beta.3
+  https://github.com/Cchhiillll/clawlink-pilot-docs/releases/tag/v0.1.0-beta.4
 
 ## 快速开始
 看这里：`docs/pilot.md`
