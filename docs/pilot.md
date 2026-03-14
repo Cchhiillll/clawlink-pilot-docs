@@ -25,7 +25,7 @@ https://github.com/Cchhiillll/clawlink-pilot-docs/releases/tag/v0.1.0-beta.5
 
 当前版本：`v0.1.0-beta.5`
 文件名：`ClawLinkMac-macos.zip`
-对应主仓库提交：`cb8787d`（`main`）
+对应主仓库提交：`6ae621b`（`main`）
 
 历史版本入口：
 - https://github.com/Cchhiillll/clawlink-pilot-docs/releases

@@ -12,7 +12,7 @@ Last updated: 2026-03-14
 - **直接下载（推荐）：**
   https://github.com/Cchhiillll/clawlink-pilot-docs/releases/download/v0.1.0-beta.5/ClawLinkMac-macos.zip
 - 当前版本：`v0.1.0-beta.5`
-- 当前包对应主仓库提交：`cb8787d`（`main`）
+- 当前包对应主仓库提交：`6ae621b`（`main`）
 - 备用页（下载异常时再用）：
   https://github.com/Cchhiillll/clawlink-pilot-docs/releases/tag/v0.1.0-beta.5
 
