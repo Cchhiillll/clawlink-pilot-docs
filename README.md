@@ -12,9 +12,19 @@ Last updated: 2026-03-14
 - **直接下载（推荐）：**
   https://github.com/Cchhiillll/clawlink-pilot-docs/releases/download/v0.1.0-beta.4/ClawLinkMac-macos.zip
 - 当前版本：`v0.1.0-beta.4`
-- 当前包对应主仓库提交：`c1456e1`（`main`）
+- 当前包对应主仓库提交：`f277803`（`main`）
 - 备用页（下载异常时再用）：
   https://github.com/Cchhiillll/clawlink-pilot-docs/releases/tag/v0.1.0-beta.4
+
+## 历史版本下载
+- `v0.1.0-beta.4`：
+  https://github.com/Cchhiillll/clawlink-pilot-docs/releases/tag/v0.1.0-beta.4
+- `v0.1.0-beta.3`：
+  https://github.com/Cchhiillll/clawlink-pilot-docs/releases/tag/v0.1.0-beta.3
+- `v0.1.0-beta.2`：
+  https://github.com/Cchhiillll/clawlink-pilot-docs/releases/tag/v0.1.0-beta.2
+- `v0.1.0-beta.1`：
+  https://github.com/Cchhiillll/clawlink-pilot-docs/releases/tag/v0.1.0-beta.1
 
 ## 快速开始
 看这里：`docs/pilot.md`
@@ -42,3 +52,4 @@ Last updated: 2026-03-14
 - `README.md`（版本号 + 下载链接 + 功能范围）
 - `docs/pilot.md`（步骤变化 + 限制说明）
 - `docs/troubleshooting.md`（新增问题与处理）
+- GitHub Releases（新增版本入口，不覆盖旧版本）

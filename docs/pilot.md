@@ -25,7 +25,10 @@ https://github.com/Cchhiillll/clawlink-pilot-docs/releases/tag/v0.1.0-beta.4
 
 当前版本：`v0.1.0-beta.4`
 文件名：`ClawLinkMac-macos.zip`
-对应主仓库提交：`c1456e1`（`main`）
+对应主仓库提交：`f277803`（`main`）
+
+历史版本入口：
+- https://github.com/Cchhiillll/clawlink-pilot-docs/releases
 
 安装：
 1. 解压
