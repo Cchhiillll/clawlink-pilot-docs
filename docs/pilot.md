@@ -1,6 +1,6 @@
 # 内测使用说明（macOS 客户端 + 主机）
 
-Last updated: 2026-03-14
+Last updated: 2026-03-17
 
 ## 0）先选模式（最重要）
 
@@ -11,21 +11,21 @@ Last updated: 2026-03-14
 - 打开应用后选 Local，连接本机 OpenClaw 即可
 
 ### Remote（远程模式）
-- 当前仅内部测试可用，暂不对外开放。
-- 原因：主机侧配对码生成命令依赖私有项目脚本环境（private 仓库）。
+- 当前 public `beta.6` 已开放入口。
+- 但宿主机侧仍需要管理员提前准备 Bridge、connect code 和首次 claim 后的 `bridgeKey` 配置。
 
 ---
 
 ## 1）下载 macOS 客户端
 直接下载（推荐）：
-https://github.com/Cchhiillll/clawlink-pilot-docs/releases/download/v0.1.0-beta.5/ClawLinkMac-macos.zip
+https://github.com/Cchhiillll/clawlink-pilot-docs/releases/download/v0.1.0-beta.6/ClawLinkMac-macos.zip
 
 备用页面（下载异常时）：
-https://github.com/Cchhiillll/clawlink-pilot-docs/releases/tag/v0.1.0-beta.5
+https://github.com/Cchhiillll/clawlink-pilot-docs/releases/tag/v0.1.0-beta.6
 
-当前版本：`v0.1.0-beta.5`
+当前版本：`v0.1.0-beta.6`
 文件名：`ClawLinkMac-macos.zip`
-对应主仓库提交：`6ae621b`（`main`）
+对应主仓库提交：`c51d5f9`（`main`）
 
 历史版本入口：
 - https://github.com/Cchhiillll/clawlink-pilot-docs/releases
@@ -60,7 +60,7 @@ xattr -dr com.apple.quarantine /Applications/ClawLinkMac.app
 
 ---
 
-## 4）Remote 路径（远程主机，当前仅内部测试）
+## 4）Remote 路径（远程主机）
 
 ### 4.1 注册 / 登录
 在登录页选择 **Register**，填写：
@@ -101,8 +101,8 @@ bash tools/pairing-qr.sh \
 >
 > 下个版本计划：pairing 命令支持省略 `device_id` 时自动生成，减少人工输入。
 
-> 当前 public `beta.5` 构建的开始页会把 **Remote** 显示为“暂未开放”。
-> 如果你需要继续做内部远程联调，需要使用私有项目仓库和内部操作流程。
+> 当前 public `beta.6` 构建已开放 **Remote** 入口。
+> 但宿主机仍需要管理员在主机侧完成 Bridge 安装、connect code 生成，以及首次 claim 后的 `bridgeKey` 配置。
 
 ---
 

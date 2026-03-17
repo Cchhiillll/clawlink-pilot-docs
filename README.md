@@ -1,6 +1,6 @@
 # ClawLink 内测文档（Beta）
 
-Last updated: 2026-03-14
+Last updated: 2026-03-17
 
 这个仓库只放：
 - 内测使用说明
@@ -10,13 +10,15 @@ Last updated: 2026-03-14
 
 ## 下载（macOS）
 - **直接下载（推荐）：**
-  https://github.com/Cchhiillll/clawlink-pilot-docs/releases/download/v0.1.0-beta.5/ClawLinkMac-macos.zip
-- 当前版本：`v0.1.0-beta.5`
-- 当前包对应主仓库提交：`6ae621b`（`main`）
+  https://github.com/Cchhiillll/clawlink-pilot-docs/releases/download/v0.1.0-beta.6/ClawLinkMac-macos.zip
+- 当前版本：`v0.1.0-beta.6`
+- 当前包对应主仓库提交：`c51d5f9`（`main`）
 - 备用页（下载异常时再用）：
-  https://github.com/Cchhiillll/clawlink-pilot-docs/releases/tag/v0.1.0-beta.5
+  https://github.com/Cchhiillll/clawlink-pilot-docs/releases/tag/v0.1.0-beta.6
 
 ## 历史版本下载
+- `v0.1.0-beta.6`：
+  https://github.com/Cchhiillll/clawlink-pilot-docs/releases/tag/v0.1.0-beta.6
 - `v0.1.0-beta.5`：
   https://github.com/Cchhiillll/clawlink-pilot-docs/releases/tag/v0.1.0-beta.5
 - `v0.1.0-beta.4`：
@@ -40,10 +42,12 @@ Last updated: 2026-03-14
 ## 当前功能范围（重要）
 - ✅ 目前对外可用：
   - macOS 客户端下载与 Local 模式使用
-  - 新版桌面壳层与图标
-- ⚠️ 当前不对外开放：
-  - Remote 绑定流程（仅内部测试可用）
-  - 原因：主机侧配对码生成仍依赖私有项目脚本环境（项目仓库为 private）
+  - Local 模式
+  - Remote 入口、登录、claim、远程聊天主链路
+- ⚠️ 当前仍需操作者准备：
+  - 宿主机侧 Bridge 安装与在线
+  - 宿主机侧 connect code 生成
+  - 首次 claim 后的宿主机 `bridgeKey` 配置
 - ⚠️ 规划中：
   - iOS 客户端
 
