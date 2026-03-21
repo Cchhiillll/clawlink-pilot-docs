@@ -1,6 +1,6 @@
 # ClawLink 内测文档（Beta）
 
-Last updated: 2026-03-17
+Last updated: 2026-03-21
 
 这个仓库只放：
 - 内测使用说明
@@ -60,3 +60,6 @@ Last updated: 2026-03-17
 - `docs/pilot.md`（步骤变化 + 限制说明）
 - `docs/troubleshooting.md`（新增问题与处理）
 - GitHub Releases（新增版本入口，不覆盖旧版本）
+
+## 维护者说明
+发布时请同时参考：`docs/release-maintenance.md`
