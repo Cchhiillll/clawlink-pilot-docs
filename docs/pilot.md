@@ -1,6 +1,6 @@
 # 内测使用说明（macOS 客户端 + 主机）
 
-Last updated: 2026-03-21
+Last updated: 2026-03-23
 
 ## 0）先选模式（最重要）
 
@@ -11,7 +11,7 @@ Last updated: 2026-03-21
 - 打开应用后选 Local，连接本机 OpenClaw 即可
 
 ### Remote（远程模式）
-- 当前 public `beta.7` 已开放入口。
+- 当前 public `beta.8` 已开放入口。
 - 默认主路径已经切到 one-command host setup。
 - 只有在 setup token 暂时不可用时，才需要退回 connect code fallback。
 
@@ -19,14 +19,14 @@ Last updated: 2026-03-21
 
 ## 1）下载 macOS 客户端
 直接下载（推荐）：
-https://github.com/Cchhiillll/clawlink-pilot-docs/releases/download/v0.1.0-beta.7/ClawLinkMac-macos.zip
+https://github.com/Cchhiillll/clawlink-pilot-docs/releases/download/v0.1.0-beta.8/ClawLinkMac-macos.zip
 
 备用页面（下载异常时）：
-https://github.com/Cchhiillll/clawlink-pilot-docs/releases/tag/v0.1.0-beta.7
+https://github.com/Cchhiillll/clawlink-pilot-docs/releases/tag/v0.1.0-beta.8
 
-当前版本：`v0.1.0-beta.7`
+当前版本：`v0.1.0-beta.8`
 文件名：`ClawLinkMac-macos.zip`
-对应主仓库提交：`b3b0ef6`（`main`）
+对应主仓库提交：`619bf7d`（`main`）
 
 历史版本入口：
 - https://github.com/Cchhiillll/clawlink-pilot-docs/releases
@@ -82,10 +82,15 @@ xattr -dr com.apple.quarantine /Applications/ClawLinkMac.app
 - Linux Host Command
 
 宿主机命令会自动完成：
+- 下载当前 public release 提供的 `clawlink-host-bundle.tar.gz`
 - 安装或更新 Bridge
 - 绑定到当前账号
 - 写入 bridge env
 - 启动服务并尝试拉到 online
+
+这意味着：
+- 宿主机不需要访问私有源码仓
+- 当前 public host bundle 资产和 `beta.8` release 放在同一个 release 页面
 
 ### 4.3 fallback：只有 setup token 不可用时才用 connect code
 如果客户端没有展示 one-command setup，或明确提示需要 fallback：
@@ -94,7 +99,7 @@ xattr -dr com.apple.quarantine /Applications/ClawLinkMac.app
 3. 展开 **Have a Connect Code Already?**
 4. 粘贴 connect code 并 claim
 
-> 当前 public `beta.7` 构建已开放 **Remote** 默认主路径。
+> 当前 public `beta.8` 构建已开放 **Remote** 默认主路径。
 > connect code 仍保留，但已经退到 fallback / 兼容路径。
 
 ---

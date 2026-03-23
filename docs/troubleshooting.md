@@ -1,6 +1,6 @@
 # 常见问题排查
 
-Last updated: 2026-03-21
+Last updated: 2026-03-23
 
 ## 1）无法注册
 - 确认 Base URL 是：`https://clawlink.wypchill.work`
@@ -16,7 +16,7 @@ Last updated: 2026-03-21
 
 ## 4）macOS 应用打不开 / 提示“已损坏”
 - 重新确认下载的是 `ClawLinkMac-macos.zip`
-- 当前对照版本：`v0.1.0-beta.7`（主仓库提交 `b3b0ef6`）
+- 当前对照版本：`v0.1.0-beta.8`（主仓库提交 `619bf7d`）
 - 先解压，再把 `ClawLinkMac.app` 拖到 Applications
 - 右键 `ClawLinkMac.app`，选择 **打开**
 - 系统设置 → 隐私与安全性 → 允许打开
@@ -28,7 +28,12 @@ Last updated: 2026-03-21
 ## 5）Add Device 没有显示宿主机命令
 - 先点一次 `Refresh Commands`
 - 如果仍提示 one-command setup 不可用，展开 connect code fallback
-- 若服务端仍返回 setup token 不可用，请联系组织者确认 beta7 后端是否已完成 rollout
+- 若服务端仍返回 setup token 不可用，请联系组织者确认 beta8 后端是否已完成 rollout
+
+## 6）宿主机提示没有源码仓权限
+- 当前 `beta.8` 的 one-command setup 不需要私有源码仓权限
+- 客户端宿主机命令会优先下载 public `clawlink-host-bundle.tar.gz`
+- 如果你看到的是旧的 clone 私有仓命令，说明客户端包太旧，请重新下载当前 `beta.8` 包
 
 ## 反馈时请附带
 - 卡在哪一步（1～6）
