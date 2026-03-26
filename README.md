@@ -1,6 +1,6 @@
-# ClawLink 内测文档（Beta）
+# ClawLink Pilot Docs
 
-Last updated: 2026-03-23
+Last updated: 2026-03-27
 
 这个仓库只放：
 - 内测使用说明
@@ -8,13 +8,19 @@ Last updated: 2026-03-23
 
 > 不包含项目源码，也不包含敏感配置。
 
-## 下载（macOS）
-- **直接下载（推荐）：**
+## Current Public Version
+- 当前公开下载版本：`v0.1.0-beta.8`
+- 直接下载（推荐）：
   https://github.com/Cchhiillll/clawlink-pilot-docs/releases/download/v0.1.0-beta.8/ClawLinkMac-macos.zip
-- 当前版本：`v0.1.0-beta.8`
-- 当前包对应主仓库提交：`619bf7d`（`main`）
-- 备用页（下载异常时再用）：
+- Release 页面（下载异常时再用）：
   https://github.com/Cchhiillll/clawlink-pilot-docs/releases/tag/v0.1.0-beta.8
+- 当前包对应主仓库提交：`619bf7d`（`main`）
+- 官网：
+  https://clawlinksite.wypchill.work/
+
+## Pilot Access
+- 当前 ClawLink 仍处于邀请码内测阶段。
+- 如需邀请码，请直接联系我本人获取。
 
 ## 历史版本下载
 - `v0.1.0-beta.8`：
@@ -59,6 +65,12 @@ Last updated: 2026-03-23
 
 ## 常见问题
 看这里：`docs/troubleshooting.md`
+
+## Notes
+- 当前公开下载版本为 `v0.1.0-beta.8`
+- 新一轮内测与体验打磨仍在继续
+- 若站内页面提到 Beta 9，请理解为当前内测迭代状态，不等同于公开下载版本
+- 如遇说明冲突，请优先以本仓库 release 与使用文档为准
 
 ## 版本维护规则
 每次发布新版本，必须同步更新：

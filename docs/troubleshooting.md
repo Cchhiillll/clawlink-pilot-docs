@@ -1,10 +1,10 @@
 # 常见问题排查
 
-Last updated: 2026-03-23
+Last updated: 2026-03-27
 
 ## 1）无法注册
 - 确认 Base URL 是：`https://clawlink.wypchill.work`
-- 邀请码可能无效/过期/已撤销，请联系组织者
+- 邀请码可能无效/过期/已撤销，请直接联系我本人确认
 
 ## 2）设备一直离线
 - 主机上的 Bridge 服务没启动

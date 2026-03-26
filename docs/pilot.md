@@ -1,6 +1,6 @@
 # 内测使用说明（macOS 客户端 + 主机）
 
-Last updated: 2026-03-23
+Last updated: 2026-03-27
 
 ## 0）先选模式（最重要）
 
@@ -49,6 +49,9 @@ xattr -dr com.apple.quarantine /Applications/ClawLinkMac.app
 应用内 Settings → Base URL：
 - `https://clawlink.wypchill.work`
 
+官网入口：
+- `https://clawlinksite.wypchill.work/`
+
 ---
 
 ## 3）Local 路径（本机直连）
@@ -69,7 +72,7 @@ xattr -dr com.apple.quarantine /Applications/ClawLinkMac.app
 - 密码
 - 邀请码
 
-邀请码请联系内测组织者。
+邀请码请直接联系我本人获取。
 
 ### 4.2 默认主路径：Add Device → one-command setup
 在 macOS 客户端：
